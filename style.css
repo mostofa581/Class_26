@@ -1,0 +1,170 @@
+
+body a{
+    text-decoration: none;
+}
+.first-image h1{
+   position: relative;
+   padding-bottom: 10px;
+}
+
+.first-image h1::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    top: 150px;
+    left: 7px;
+    background-color: #2b57d2;
+}
+.main-image-flex{
+    display: flex;
+    width: 750px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.item{
+    width: 220px;
+    border: 1px solid rgb(235, 232, 232);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-image-flex :nth-child(2) {
+    background-color: #f9f9fa;
+}
+
+.item:hover{
+    background-color: rgb(226, 221, 221);
+}
+
+/* latest news section design  */
+
+.flex-img img{
+    width: 355px;
+    border-radius: 4px;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    position: relative;
+    top: -64px;
+    left: 160px;
+    border-radius: 50px;
+}
+
+.btn-primary img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.first-text p{
+    position: relative;
+}
+.first-text p::before {
+    content: "";
+    position: absolute;
+    width: 51px;
+    height: 2px;
+    background-color: blue;
+    top: -14px;
+    left: 212px;
+}
+
+
+
+
+
+
+
+
+
+/*  Footer CSS  */
+.footer{
+    background-color: #081828;
+    color: #fff;
+}
+.footer-widget{
+    padding-left: 15px;
+}
+.footer-widget img{
+    width: 150px;
+    padding-bottom: 30px;
+}
+.footer-widget h3 {
+    font-size: 22px;
+    border-left: 2px solid #3763eb;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+.footer-widget ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer-widget ul li {
+    margin: 10px 0;
+}
+.footer-widget ul li a {
+    text-decoration: none;
+    transition: .4s;
+}
+.footer-widget ul li a:hover{
+    letter-spacing: 1.5;
+    color: red;
+}
+/* .footer-top{
+    border-bottom: 1px solid #444;
+    margin:  auto;
+} */
+.footer a{
+    color: #fff;
+}
+
+/*  Footer Social  */
+.widget-social{}
+.widget-social ul{
+    display: flex;
+}
+.widget-social ul li{
+    padding: 10px 13px;
+    margin: 0 !important;
+}
+.widget-social ul li span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.widget-social ul li a {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+
+.footer-copyright p{
+    margin-bottom: 0;
+}
+
+.footer-contact{}
+.footer-contact-item {
+    margin-bottom: 20px;
+}
+.footer-contact-item span {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.footer-contact-item span i{}
+.footer-contact-item a {
+    text-decoration: none;
+}
